@@ -1,0 +1,32 @@
+* {
+   margin:0;
+   padding:0;
+   box-sizing: border-box;
+}
+body{
+   display: flex;
+   justify-content: center;
+   align-items: flex-start;
+   max-width: 1440px;
+   margin: 0 auto;
+   width: 100%;
+   flex-wrap: wrap;
+   gap: 30px   ;
+}
+.item{
+   width: 180px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+   gap: 12px;
+   &__img{
+      width: 180px;
+      height: 180px;
+   }
+   &__title{
+      font-size: 18px;
+      font-weight: 700;
+      text-align: center;
+   }
+}
